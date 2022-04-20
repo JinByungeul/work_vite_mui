@@ -11,11 +11,9 @@ import { BaseOptionChartStyle } from "./components/chart/BaseOptionChart";
 export default function App() {
   return (
     <ThemeProvider>
-      {/* <Router> router 로 감싸야 에러가 안남! */}
         <ScrollToTop />
         <BaseOptionChartStyle />
         <RouterComponent />
-      {/* </Router> */}
     </ThemeProvider>
   )
 }
